@@ -32,6 +32,11 @@ public class Character : MonoBehaviour
             rigidbody2D.velocity += Vector2.up * jumpforce;
         }
 
+        if (Input.GetAxis("Vertical") < 0)
+        {
+            transform.localScale *= .5f;
+        }
+
         if (transform.position.y < DEADZONEHEIGHT)
         {
             Die();
@@ -47,7 +52,6 @@ public class Character : MonoBehaviour
         {
 
             transform.rotation = new Quaternion(0, 180, 0, 0);
-
         }
 
     }

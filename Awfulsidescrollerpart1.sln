@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2DB79BC8-10A7-A625-2F05-13E64BFA54CB}") = "Awfulsidescrollerpart1", "Assembly-CSharp.csproj", "{31049836-C0CD-9494-5671-D16D92F8AF9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31049836-C0CD-9494-5671-D16D92F8AF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31049836-C0CD-9494-5671-D16D92F8AF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31049836-C0CD-9494-5671-D16D92F8AF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31049836-C0CD-9494-5671-D16D92F8AF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
